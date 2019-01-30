@@ -1,0 +1,6 @@
+user_age = int(input('Please enter your age:  '))
+age_in_ten_yrs = int(user_age + 10)
+print('In ten years your age will be:', age_in_ten_yrs )
+user_F_temp = int(input('Please enter your current temperature in Fahrenheit:  '))
+F_degrees_into_C = int((user_F_temp - 32) * 5 / 9)
+print('Your temperature in Fahrenheit is', user_F_temp, 'but your temperature in Celsius is', F_degrees_into_C)
